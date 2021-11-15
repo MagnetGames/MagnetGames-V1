@@ -1,0 +1,559 @@
+/* Background tile. */
+a {
+  cursor: url(./cursor_1.gif), auto;
+  -webkit-animation: cursor 800ms infinite;
+  animation: cursor 800ms infinite;
+}
+@-webkit-keyframes cursor
+{
+  0% {cursor: url(./cursor_1.gif), auto;}
+  14% {cursor: url(./cursor_2.gif), auto;}
+  28% {cursor: url(./cursor_3.gif), auto;}
+  42% {cursor: url(./cursor_4.gif), auto;}
+  50% {cursor: url(./cursor_5.gif), auto;}
+  57% {cursor: url(./cursor_6.gif), auto;}
+  71% {cursor: url(./cursor_7.gif), auto;}
+  85% {cursor: url(./cursor_8.gif), auto;}
+} 
+@keyframes cursor
+{
+  0% {cursor: url(./cursor_1.gif), auto;}
+  14% {cursor: url(./cursor_2.gif), auto;}
+  28% {cursor: url(./cursor_3.gif), auto;}
+  42% {cursor: url(./cursor_4.gif), auto;}
+  50% {cursor: url(./cursor_5.gif), auto;}
+  57% {cursor: url(./cursor_6.gif), auto;}
+  71% {cursor: url(./cursor_7.gif), auto;}
+  85% {cursor: url(./cursor_8.gif), auto;}
+}
+body 
+{
+    background: url(./bgtile.png);
+	font-smooth: never;
+	-webkit-font-smoothing : none;
+	/*cursor: url(./cur_body.gif), auto;*/
+	cursor: url(./cursor_1.gif), auto;
+}
+.ScrollText
+{
+    text-align: center;
+    background: #008888;
+	color: #FFFF00;
+    border: 1px dotted #00FFFF;
+	text-shadow: 1px 1px #000000;
+	width: 640px;
+}
+.MainPage
+{
+	margin: auto;
+    background: #EEFFFF;
+	border-bottom: 4px solid #558888;
+	border-left: 4px solid #558888;
+	border-right: 4px solid #558888;
+	border-radius: 0px 0px 5px 5px;
+	width: 85%;
+	min-width: 640px;
+}
+.MainContent
+{
+	padding:16px 32px;
+}
+.NavBar
+{
+	padding-top:8px;
+	padding-bottom:4px;
+	margin: auto;
+    background: #FFE000;
+	border: 4px outset #FFC000;
+	border-radius: 5px 5px 0px 0px;
+	width: 85%;
+	vertical-align: middle;
+	min-width: 640px;
+}
+.UserBar
+{
+	margin: auto;
+    background: #BCF2F2;
+	border: 4px outset #8ADCDC;
+	width: 85%;
+	vertical-align: middle;
+	text-align: right;
+	min-width: 640px;
+}
+.UserBarContent
+{
+	padding:4px;
+}
+.SAqua_Comment
+{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+    background: #FFFFFF;
+	width: 100%;
+	border: 4px outset #00AAAA;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SAqua_CommentTitle
+{
+	padding:6px;
+    background: #99DDDD;
+	border-bottom: 1px solid #009999;
+	overflow: auto;
+}
+.SAqua_CommentRatings
+{
+	padding:4px;
+    background: #88CCCC;
+	border-top: 1px solid #008888;
+}
+.SAqua_CommentContent
+{
+	padding:6px;
+	max-height: 400px;
+	overflow-y: auto;
+	background: #CCFFFF;
+	border: 1px solid #009999;
+}
+.SAqua_Description
+{
+	margin: auto;
+	padding:6px;
+	max-height: 400px;
+	overflow-y: auto;
+	background: #CCFFFF;
+	border: 1px solid #009999;
+	display: inline-block;
+}
+.SAqua_Form
+{
+	padding:6px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+    background: #99DDDD;
+	border: 4px outset #00AAAA;
+	width: 100%;
+	vertical-align: middle;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SAqua_AboutContent
+{
+	padding:6px;
+	background: #CCFFFF;
+	border: 1px solid #009999;
+}
+.SAqua_PAvatar
+{
+	border: 8px outset #00AAAA;
+}
+.SAqua_CAvatar
+{
+	border: 2px outset #00AAAA;
+}
+.SLime_Comment
+{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+    background: #FFFFFF;
+	width: 100%;
+	border: 4px outset #44AA44;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SLime_CommentTitle
+{
+	margin: auto;
+	padding:6px;
+    background: #99DD99;
+	border-bottom: 1px solid #009900;
+	overflow: auto;
+}
+.SLime_CommentRatings
+{
+	padding:4px;
+    background: #88CC88;
+	border-top: 1px solid #008800;
+}
+.SLime_CommentContent
+{
+	padding:6px;
+	max-height: 400px;
+	overflow-y: auto;
+	background: #CCFFCC;
+	border: 1px solid #009900;
+}
+.SLime_Form
+{
+	padding:6px;
+	margin: auto;
+    background: #99DD99;
+	border: 4px outset #44AA44;
+	width: 100%;
+	vertical-align: middle;
+}
+.SLime_PAvatar
+{
+	border: 8px outset #44AA44;
+}
+.SLime_CAvatar
+{
+	border: 2px outset #44AA44;
+}
+.Button
+{
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:32px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.Button:hover
+{
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.Button:active 
+{
+	position:relative;
+	top:1px;
+}
+.SRed_Comment
+{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+    background: #FFFFFF;
+	width: 100%;
+	border: 4px outset #AA4444;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SRed_CommentTitle
+{
+	padding:6px;
+    background: #DD9999;
+	border-bottom: 1px solid #990000;
+	overflow: auto;
+}
+.SRed_CommentRatings
+{
+	padding:4px;
+    background: #CC8888;
+	border-top: 1px solid #880000;
+}
+.SRed_CommentContent
+{
+	padding:6px;
+	max-height: 400px;
+	overflow-y: auto;
+	background: #FFCCCC;
+	border: 1px solid #990000;
+}
+.SRed_Form
+{
+	padding:6px;
+	margin: auto;
+    background: #DD9999;
+	border: 4px outset #990000;
+	width: 100%;
+	vertical-align: middle;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SRed_PAvatar
+{
+	border: 8px outset #990000;
+}
+.SRed_CAvatar
+{
+	border: 2px outset #990000;
+}
+.SSky_Form
+{
+	padding:6px;
+	margin: auto;
+    background: #BCF2F2;
+	border: 4px outset #8ADCDC;
+	width: 100%;
+	vertical-align: middle;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.CommentContent
+{
+	padding:6px;
+	max-height: 400px;
+	overflow-y: auto;
+}
+.CommentUV
+{
+	color: #008800;
+}
+.CommentDV
+{
+	color: #880000;
+}
+/* Submissions here */
+.SGold_Submission
+{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+    background: #FFFFFF;
+	width: 100%;
+	border: 4px outset #FFC000;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SGold_SubmissionTitle
+{
+	padding:6px;
+    background: #FFED7C;
+	font-size: 24px;
+    font-weight: bold;
+	border-bottom: 1px solid #AB8100;
+	overflow: auto;
+}
+.SGold_SubmissionHeader
+{
+	padding:6px;
+    background: #FFE000;
+	border-top: 1px solid #AB8100;
+	border-bottom: 1px solid #AB8100;
+	overflow: auto;
+}
+.SGold_SubmissionHash
+{
+	padding:6px;
+    background: #FFFAAA;
+	border-top: 1px solid #AB8100;
+	border-bottom: 1px solid #AB8100;
+}
+.SGold_SubmissionRatings
+{
+	padding:4px;
+    background: #EED000;
+	border-top: 1px solid #AB8100;
+}
+.SGold_Form
+{
+	padding:6px;
+	margin: auto;
+    background: #FFE000;
+	border: 4px outset #FFC000;
+	width: 100%;
+	vertical-align: middle;
+}
+.SGold_PAvatar
+{
+	border: 8px outset #FFC000;
+}
+.SGold_CAvatar
+{
+	border: 2px outset #FFC000;
+}
+.SPurple_Submission
+{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+    background: #FFFFFF;
+	width: 100%;
+	border: 4px outset #C76DFF;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SPurple_SubmissionTitle
+{
+    background: #E5BAFF;
+	font-size: 24px;
+    font-weight: bold;
+	overflow: auto;
+}
+.SPurple_SubmissionHeader
+{
+	padding:6px;
+    background: #E5BAFF;
+	border-bottom: 1px solid #8549AB;
+	overflow: auto;
+}
+.SPurple_SubmissionHash
+{
+	padding:6px;
+    background: #F4E5FF;
+	border-top: 1px solid #8549AB;
+	border-bottom: 1px solid #8549AB;
+	color: #8549AB;
+	overflow: auto;
+}
+.SPurple_SubmissionRatings
+{
+	padding:4px;
+    background: #D4A9EE;
+	border-top: 1px solid #8549AB;
+}
+.SPurple_PAvatar
+{
+	border: 8px outset #C76DFF;
+}
+.SPurple_CAvatar
+{
+	border: 2px outset #C76DFF;
+}
+.SSky_Submission
+{
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4px;
+    background: #FFFFFF;
+	width: 100%;
+	border: 4px outset #6DBDFF;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+.SSky_SubmissionTitle
+{
+    background: #BAE0FF;
+	font-size: 24px;
+    font-weight: bold;
+	overflow: auto;
+}
+.SSky_SubmissionHeader
+{
+	padding:6px;
+    background: #BAE0FF;
+	border-bottom: 1px solid #497FAB;
+	overflow: auto;
+}
+.SSky_SubmissionHash
+{
+	padding:6px;
+    background: #E5F4FF;
+	border-top: 1px solid #497FAB;
+	border-bottom: 1px solid #497FAB;
+	color: #497FAB;
+	overflow: auto;
+}
+.SSky_SubmissionRatings
+{
+	padding:4px;
+    background: #A9CFEE;
+	border-top: 1px solid #497FAB;
+}
+.SPurple_PAvatar
+{
+	border: 8px outset #C76DFF;
+}
+.SPurple_CAvatar
+{
+	border: 2px outset #C76DFF;
+}
+.SubmissionContent
+{
+	padding:6px;
+	max-height: 550px;
+	overflow-y: auto;
+}
+.GameTitle
+{
+	font-size: 24px;
+    font-weight: bold;
+	color: #00AAAA;
+}
+.Clickable
+{
+	cursor: url(./cursor_1.gif), auto;
+	-webkit-animation: cursor 800ms infinite;
+	animation: cursor 800ms infinite;
+}
+.FooterLinks:link
+{
+	color: #FFFF00;
+	text-shadow: 1px 1px #000000;
+}
+.FooterLinks:visited
+{
+	color: #FFFF00;
+	text-shadow: 1px 1px #000000;
+}
+.FooterLinks:hover
+{
+	color: #00FF00;
+	text-shadow: 1px 1px #000000;
+}
+textarea 
+{
+	width:100%;
+    resize: none;
+	padding:8px;
+	box-sizing : border-box;
+}
+input[type="submit"]
+{
+	width:100%;
+    resize: none;
+	padding:8px;
+	box-sizing : border-box;
+}
+input[type="text"]
+{
+	width:100%;
+    resize: none;
+	padding:8px;
+	box-sizing : border-box;
+}
+input[type="password"]
+{
+	width:100%;
+    resize: none;
+	padding:8px;
+	box-sizing : border-box;
+}
+h1, h2, h3, h4, h5, h6 
+{
+   padding: 0; 
+   margin: 0; 
+}
+pre 
+{
+	white-space: pre-wrap;
+    margin: auto;
+}
+img
+{
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: -webkit-crisp-edges;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: pixelated;
+}

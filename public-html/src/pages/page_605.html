@@ -1,0 +1,46 @@
+<center>
+	<h1 style="color: #8549AB;">Using the InterPlanetary File System (IPFS)</h1>
+	<b><a href="./index.php?pageid=600&pttl=guides">Back to Guides</a></b>
+	<hr>
+	<h3>What is IPFS?</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5Uj6uR3fp-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
+	InterPlanetary File System is a protocol and network designed to create a content-addressable, peer-to-peer method of storing and sharing hypermedia in a distributed file system. IPFS was initially designed by Juan Benet, and is now an open-source project developed with help from the community.<br>
+	IPFS is a peer-to-peer distributed file system that seeks to connect all computing devices with the same system of files. In some ways, IPFS is similar to the World Wide Web, but IPFS could be seen as a single BitTorrent swarm.
+	
+	<hr>
+	<h3>How do I use it?</h3>
+	IPFS is primarily used via the command line or WebUI. However MagnetGames finds the easiest way to use IPFS on Windows is by using a 3rd party desktop client.
+	We recommend using the software <b><a href="https://github.com/ipfs-shipyard/ipfs-desktop/releases">IPFS Desktop</a></b> by <b>hacdias on GitHub</b>.<br>
+	IPFS Desktop makes the user experience a lot easier due to the use of a GUI interface instead of a command line interface.<br>
+	Once installed, the IPFS Desktop interface can be opened via the Windows Tray. <br><br>
+	<img src="./cssimg/guides/ipfs/interface.png" title="IPFS Desktop Interface"><br>
+	From here, you'll be able to see which peers you are connected to through the IPFS network, upload files/directories, open the WebUI and configure settings.
+	
+	<hr>
+	<h3>Uploading files/directories to the IPFS network</h3>
+	Uploading files to the IPFS network in IPFS Desktop is as easy as clicking the <b>Files</b> tab and clicking away!<br>
+	It's <i>important</i> to know however, IPFS does NOT retain filenames unless it's from a directory.<br><br>
+	<img src="./cssimg/guides/ipfs/files.png" title="IPFS Desktop File Uploader"><br>
+	
+	When you're ready to share a link, hover over the uploaded file and click the picture of the "Clipboard".<br>
+	<img src="./cssimg/guides/ipfs/clipboard.png" title="IPFS Desktop Copy to Clipboard"><br>
+	You will get something like this copied to your clipboard:<br>
+	<span style="color: #8549AB;">https://ipfs.io/ipfs/<b>QmbXjoHEL1BisbXmcUwkySKvcxrPBy5Y8jCgSwzUB8GphY</b></span><br>
+	The part in <b>bold</b> is the <b>IPFS Hash</b> itself, hashes can be downloaded via the <b>WebUI</b> or more commonly by the <b>http://ipfs.io/ipfs/</b> links.
+	
+	<hr>
+	<h3>Using the WebUI</h3>
+	You can access the IPFS WebUI by clicking on the <b>Info</b> tab, scrolling to the bottom and clicking on the "Open WebUI" button.<br>
+	You can also use "Stop Daemon" to stop running IPFS itself, which will give you an option to quit IPFS Desktop.<br>
+	After clicking on "Open WebUI", a browser window should open in your default browser.<br><br>
+	<img src="./cssimg/guides/ipfs/webui.png" title="IPFS WebUI"><br>
+	On here, you can upload files/directories the same way as IPFS Desktop. You can additionally enter hashes on the bar on the top.
+	
+	<hr>
+	<h3>Sharing IPFS Hashes to MagnetGames</h3>
+	Sharing IPFS Hashes is as easy as copying the IPFS hash and pasting it in the bottom box on the submission page!
+	<img src="./cssimg/guides/ipfs/ipfssub.png" title="MagnetGames IPFS Submissions"><br>
+	It doesn't matter if it includes the <b>http://ipfs.io/ipfs/</b> part or not, as MagnetGames will seperate it internally for your post.<br>
+	That's all folks! I hope this guide helps you understand how to use the IPFS network a little better.<br><br>
+</center>
